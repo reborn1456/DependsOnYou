@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Game Framework">
+      <UniqueIdentifier>{7b5f384c-6d4c-4e06-abab-b9a262f94cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Sound">
+      <UniqueIdentifier>{81f2cb2b-eccb-4538-8422-7b07d1d9dc54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Maths">
+      <UniqueIdentifier>{21af36cb-16f6-4357-ac92-3e5a50902211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Sound">
+      <UniqueIdentifier>{2150b555-cdb0-46d4-96c9-c22c29c281a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game Scene">
+      <UniqueIdentifier>{baac391f-9cd3-4f62-b164-0ebb5ff55720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game Stage">
+      <UniqueIdentifier>{827b3c4b-e3ee-4d94-9545-098f781d7dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game Stage">
+      <UniqueIdentifier>{8c2672c9-eb99-4f1d-b36a-74d6da5f238a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game Scene">
+      <UniqueIdentifier>{2a9fbb8d-6a16-4d21-a3de-e81da5ab6ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game Stage\Stage1">
+      <UniqueIdentifier>{3fef3a3c-fbf7-4851-b7a8-c181420a5b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game Stage\Stage2">
+      <UniqueIdentifier>{d6e59647-d28c-4378-b0ce-14b71e8ec7c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game Stage\Stage1">
+      <UniqueIdentifier>{20bf57fe-b1c3-4282-8b22-069ba9df9877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game Stage\Stage2">
+      <UniqueIdentifier>{8939fc4b-0a8c-47aa-8148-642f8f656767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game Stage\Prologue">
+      <UniqueIdentifier>{75c97e27-b212-46c7-bd7b-af0aba6abb0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game Stage\Prologue">
+      <UniqueIdentifier>{e887f3a9-7ff6-41d5-9c69-b37c2d77f3ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game Stage\Player">
+      <UniqueIdentifier>{556c5644-e232-40d6-a77a-79124f0b65f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game Stage\Player">
+      <UniqueIdentifier>{19c8416a-c9c3-4fd8-8926-04154bff0917}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\GameFrame\CGameFrame.cpp">
+      <Filter>ソース ファイル\Game Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameFrame\CGameFrameConstruct.cpp">
+      <Filter>ソース ファイル\Game Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameFrame\main.cpp">
+      <Filter>ソース ファイル\Game Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="source\scenes\main_game\CGame.cpp">
+      <Filter>ソース ファイル\Game Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\scenes\result\CResult.cpp">
+      <Filter>ソース ファイル\Game Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\scenes\title\CTitle.cpp">
+      <Filter>ソース ファイル\Game Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPlayer.cpp">
+      <Filter>ソース ファイル\Game Stage\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="source\stages\prologue\CPMapChip.cpp">
+      <Filter>ソース ファイル\Game Stage\Prologue</Filter>
+    </ClCompile>
+    <ClCompile Include="source\stages\prologue\CPrologue.cpp">
+      <Filter>ソース ファイル\Game Stage\Prologue</Filter>
+    </ClCompile>
+    <ClCompile Include="source\stages\stage1\CStage1.cpp">
+      <Filter>ソース ファイル\Game Stage\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\stages\stage1\CStage1Map.cpp">
+      <Filter>ソース ファイル\Game Stage\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\stages\stage2\CStage2.cpp">
+      <Filter>ソース ファイル\Game Stage\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="source\maths\CAngleDistance.cpp">
+      <Filter>ソース ファイル\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sound\CSound.cpp">
+      <Filter>ソース ファイル\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sound\wavread.cpp">
+      <Filter>ソース ファイル\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CBasicShape.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\stages\stage1\CItem.cpp">
+      <Filter>ソース ファイル\Game Stage\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\scenes\game_over\CGameOver.cpp">
+      <Filter>ソース ファイル\Game Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\scenes\CGame.h">
+      <Filter>ヘッダー ファイル\Game Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scenes\CGameOver.h">
+      <Filter>ヘッダー ファイル\Game Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scenes\CResult.h">
+      <Filter>ヘッダー ファイル\Game Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scenes\CTitle.h">
+      <Filter>ヘッダー ファイル\Game Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPlayer.h">
+      <Filter>ヘッダー ファイル\Game Stage\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stages\prologue\CPMapChip.h">
+      <Filter>ヘッダー ファイル\Game Stage\Prologue</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stages\prologue\CPrologue.h">
+      <Filter>ヘッダー ファイル\Game Stage\Prologue</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stages\stage1\CStage1.h">
+      <Filter>ヘッダー ファイル\Game Stage\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stages\stage1\CStage1Map.h">
+      <Filter>ヘッダー ファイル\Game Stage\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stages\stage2\CStage2.h">
+      <Filter>ヘッダー ファイル\Game Stage\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sound\CSound.h">
+      <Filter>ヘッダー ファイル\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sound\wavread.h">
+      <Filter>ヘッダー ファイル\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CBasicShape.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CGameFrame.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CMaths.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Define.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enum.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stages\stage1\CItem.h">
+      <Filter>ヘッダー ファイル\Game Stage\Stage1</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
